@@ -31,8 +31,6 @@ fun main(args: Array<String>) {
 
 
     val gson = Gson()
-    //val jsonString = gson.toJson(TestModel(1,"Test"))
-    //assertEquals(jsonString, """{"id":1,"description":"Test"}""")
 
     //val json = """{"name": "Kolineer", "age": "26", "messages" : ["Master Kotlin","At Kolination"]}"""
     //val person1 : Person = gson.fromJson(json, Person::class.java)
