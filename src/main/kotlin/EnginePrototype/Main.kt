@@ -32,9 +32,6 @@ fun main(args: Array<String>) {
 
     val gson = Gson()
 
-    //val json = """{"name": "Kolineer", "age": "26", "messages" : ["Master Kotlin","At Kolination"]}"""
-    //val person1 : Person = gson.fromJson(json, Person::class.java)
-
     val json2 = File("input").readText()
     val testingQuest : Quest = gson.fromJson(json2, Quest::class.java)
 
