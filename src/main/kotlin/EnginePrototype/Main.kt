@@ -29,7 +29,6 @@ fun main(args: Array<String>) {
 
     println(Eval.x(4, "2*x"))
 
-
     val gson = Gson()
 
     val json2 = File("input").readText()
