@@ -1,8 +1,51 @@
 {
-    "name": "Nope",
-    "age": 27,
-    "messages" : {
-        "time" : 134,
-        "text" : 21
-    }
+    "save": {
+        "slideId" : 1
+    },
+
+    "starting" : {
+        "slideId" : 1
+    },
+
+    "finishingId" : 3,
+
+    "slides" : [
+        {
+            "slideId" : 1,
+            "text" : "This is starting slide",
+            options : [
+                {
+                    "optionId" : 1,
+                    "optionText" : "We shall proceed",
+                    "moveToSlide" : 2
+                },
+                {
+                    "optionId" : 2,
+                    "optionText" : "Lets skip one, why not?",
+                    "moveToSlide" : 2
+                },
+                {
+                    "optionId" : 3,
+                    "optionText" : "We are done here.",
+                    "moveToSlide" : 3
+                }
+            ]
+        },
+        {
+            "slideId" : 1,
+            "text" : "This is starting slide",
+            options : [
+                {
+                    "optionId" : 1,
+                    "optionText" : "Wait, what was that?",
+                    "moveToSlide" : 1
+                },
+                {
+                    "optionId" : 2,
+                    "optionText" : "Lets skip one, why not?",
+                    "moveToSlide" : 3
+                }
+            ]
+        }
+    ]
 }
